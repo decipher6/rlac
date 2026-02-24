@@ -1,10 +1,11 @@
 ---
-title: "Assignment 2:"
-date: 2026-02-25T15:34:30-04:00
+title: "Assignment 2: Harry Potter Fan Fics Analysis"
+date: 2026-02-24T15:34:30-04:00
 categories:
   - blog
 tags:
-  - Jekyll
+  - assignment
+  - RLAC
   - update
 ---
 
