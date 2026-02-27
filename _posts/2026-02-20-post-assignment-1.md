@@ -44,6 +44,8 @@ Three hypotheses going in: that *Philosopher's Stone* would have more food langu
 
 ## Section 2: Analysis and Findings
 
+With the corpus established and hypotheses defined, the analysis turns to three domains: food, violence, and character prominence.
+
 ### Food Language and Worldbuilding
 
 <figure>
@@ -51,7 +53,7 @@ Three hypotheses going in: that *Philosopher's Stone* would have more food langu
   <figcaption>Figure 2: R heatmap — food vocabulary across five texts.</figcaption>
 </figure>
 
-The food heatmap is the finding I least expected to be this clean. Looking at the actual numbers: *Sorcerer's Stone* leads on chocolate (16), feast (7), beans (6), hungry (6), and cake (7). *Deathly Hallows* leads on food (21) and dinner (15), and notably has butterbeer (4) while *Sorcerer's Stone* has none. Which is believable as the drink is not introduced in the first book. *HP Meets HP* and the NYU Universe register zero across almost every food word. The NYU Universe has a single instance of chocolate and one of coffee, and nothing else. *Djinn Awakened* is the surprise as it has more food vocabulary than expected. For a dark crossover, 11 instances of dinner and 6 of butterbeer suggests Wishmaster1983 kept more of the wizarding world's texture than the other two fan fic authors did. But we also need to keep in mind that *Djinn Awakened* is a decisively long text compared to the other fan fics as seen in Figure 3 below.
+The food heatmap is immediately striking. *Sorcerer's Stone* leads on chocolate (16), feast (7), beans (6), hungry (6), and cake (7). *Deathly Hallows* leads on food (21) and dinner (15), and notably has butterbeer (4) while *Sorcerer's Stone* has none. As someone who has watched the movies, it caught me by surprise that butterbeer was not present in all the books. *HP Meets HP* and the NYU Universe register zero across almost every food word. The NYU Universe has a single instance of chocolate and one of coffee, and nothing else. *Djinn Awakened* is the surprise as it has more food vocabulary than expected. For a dark crossover, 11 instances of dinner and 6 of butterbeer suggests Wishmaster1983 kept more of the wizarding world's texture than the other two fan fic authors did.However, Djinn Awakened is substantially longer than the other fan fictions (Figure 3), which complicates direct comparison.
 
 <figure>
   <img src="../../assets/images/fig3_lengths.png" alt="Voyant MicroSearch — lengths of texts visualized.">
@@ -67,7 +69,7 @@ The broader pattern still holds though. In *Sorcerer's Stone*, food is how Rowli
 
 The NYU Universe has essentially no food language because it has no wizarding world to build. That absence is meaningful. A realistic story set on a university campus doesn't need feasts to establish belonging, and lyingleia doesn't reach for them. The heatmap makes this invisible editorial choice suddenly visible.
 
-Kestemont and Herman argue that machines can surface patterns in text but the interpretive work of deciding what those patterns mean stays entirely human. The heatmap shows the absence clearly, but explaining why it matters requires knowing what food actually does in Rowling's writing, and that comes from our own interpretation, not from the tool.
+Kestemont and Herman argue that machines can surface patterns in text but the interpretive work of deciding what those patterns mean stays entirely human. The heatmap shows the absence clearly, but explaining why it matters requires knowing what food actually does in Rowling's writing, and that comes from us, the readers, not from the tool.
 
 ### Violence and Tone
 
@@ -76,11 +78,11 @@ Kestemont and Herman argue that machines can surface patterns in text but the in
   <figcaption>Figure 5: R heatmap — violence vocabulary across the corpus.</figcaption>
 </figure>
 
-The violence heatmap confirmed the hypothesis, and the numbers are stark. *Deathly Hallows* dominates: 580 instances of "wand," 306 of "death," 194 of "dark," 113 of "magic," 101 of "dead," and 70 of "kill." *Djinn Awakened* follows a similar pattern: 249 instances of "magic," 84 of "wand," 69 of "dark," 57 of "death," and 45 of "war." *Sorcerer's Stone* sits in the middle, with 63 wand mentions and 62 of "dark" but only 10 instances of "death." The NYU Universe is zeroes almost across the board, which makes sense since it has no magic at all.
+The violence heatmap confirmed the hypothesis about Djinn Awakened and Deathly Hallows being similar in terms of violent language use. *Deathly Hallows* dominates: 580 instances of "wand," 306 of "death," 194 of "dark," 113 of "magic," 101 of "dead," and 70 of "kill." *Djinn Awakened* follows a similar pattern: 249 instances of "magic," 84 of "wand," 69 of "dark," 57 of "death," and 45 of "war." *Sorcerer's Stone* sits in the middle, with 63 wand mentions and 62 of "dark" but only 10 instances of "death." The NYU Universe is zeroes almost across the board, which makes sense since it has no magic at all.
 
-The most striking single number in the violence heatmap is "djinn" — 310 instances in *Djinn Awakened* and zero everywhere else. That one word captures exactly where the fan fiction breaks from everything in the corpus. Up to a point, *Djinn Awakened* and *Deathly Hallows* share a dark register. Both deal with death, dark forces, and war. But once Wishmaster1983's own mythology kicks in, the two texts diverge completely. "War" appears 45 times in *Djinn Awakened* and only 10 times in *Deathly Hallows*, which is also surprising — the fan fic is more explicitly war-focused in its vocabulary even though *Deathly Hallows* is the canonical war narrative.
+The most striking single number in the violence heatmap is "djinn" — 310 instances in *Djinn Awakened* and zero everywhere else. That one word captures exactly where the fan fiction breaks from everything in the corpus. Up to a point, *Djinn Awakened* and *Deathly Hallows* share a dark register. Both deal with death, dark forces, and war. But once Wishmaster1983's own mythology kicks in, the two texts diverge completely. "War" appears 45 times in *Djinn Awakened* and only 10 times in *Deathly Hallows*, which is also surprising, the fan fic is more explicitly war-focused in its vocabulary than *Deathly Hallows*.
 
-This is a risk Underwood identifies in "The Risks of Distant Reading" — that surface patterns can mislead if you treat them as the whole story. The lexical overlap between *Djinn Awakened* and *Deathly Hallows* is real, but the two texts are doing very different things with that vocabulary. One is a war narrative about sacrifice. The other is a mythology-influenced crossover. The numbers show the overlap but close reading might reveal the underlying difference.
+This is a risk Underwood identifies in "The Risks of Distant Reading": surface patterns can mislead if you treat them as the whole story. The vocabulary overlap between *Djinn Awakened* and *Deathly Hallows* is real, but the two texts are doing very different things with that vocabulary. One is a war narrative about sacrifice. The other is a mythology-influenced crossover. The numbers show the overlap but close reading might reveal the underlying difference.
 
 ### Character Prominence
 
@@ -95,7 +97,7 @@ This is a risk Underwood identifies in "The Risks of Distant Reading" — that s
 
 The character name Trends graph shows Harry sitting far above everyone else across every text. But the gaps between the other characters shift in ways that directly reflect each author's focus.
 
-In *HP Meets HP*, Draco rises to a frequency that nearly matches Ron and Hermione. In the Rowling novels the Draco line is nearly flat. Even in the Cirrus for the entire corpus Draco's prominence is not seen. CaelynAilene states in her author notes that she wrote a post-war Harry-Draco friendship, and the frequencies confirm it. This is what Adwetewa-Badu means when she says distant reading tools work best when the person using them already brings literary context to the analysis. Without knowing CaelynAilene set out to develop Draco, his name spike is just a number which could mean anything. Knowing it makes the finding meaningful.
+In *HP Meets HP*, Draco rises to a frequency that nearly matches Ron and Hermione. In the Rowling novels the Draco line is nearly flat. Even in the Cirrus for the entire corpus Draco is absent. CaelynAilene states in her author notes that she wrote a post-war Harry-Draco friendship, and the Voyant Trends confirm it. This is what Adwetewa-Badu means when she says distant reading tools work best when the person using them already brings context to the analysis. Without knowing CaelynAilene set out to develop Draco, his name spike is just a number.
 
 The NYU adaptation shows something different. Ron's frequency drops to nearly zero while Hermione's climbs relative to Harry. The fanfic removes him entirely and reframes Harry and Hermione as the central relationship.
 
