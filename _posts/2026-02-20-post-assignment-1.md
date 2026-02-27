@@ -109,7 +109,7 @@ The most useful thing distant reading did here was make absence visible. The nea
 
 Moreover, Underwood argues in "The Risks of Distant Reading" that these methods don't remove interpretation but instead move it. Every choice made before running the analysis, which words to track, which texts to include, shaped what came out. The findings here only mean something because the corpus was chosen with a specific question in mind and the word lists were built around hypotheses. Without that work, the tools wouldn't produce logical results.
 
-What the method can't do is explain the findings on its own. The numbers show that fan writers drop food language, but not whether that's intentional or just a side effect of focusing on the plot with constrained word count. The tools surface questions that close reading then has to answer. That's the most transferable lesson: use computational analysis to figure out where to look, then read closely to figure out what it means.
+What Distant Reading can't do is explain the findings on its own. The numbers show that fan writers drop food language, but not whether that's intentional or just a side effect of focusing on the plot with constrained word count. The tools surface questions that close reading then has to answer. That's the most transferable lesson: use distant reading to figure out where to look, then read closely to figure out what it means.
 
 ---
 
@@ -120,3 +120,5 @@ Adwetewa-Badu, Ama Bemma. "Distant Reading: A Discussion with Ama Bemma Adwetewa
 Kestemont, Mike, and Luc Herman. "Can Machines Read Literature?" *Umanistica Digitale*, vol. 3, 2018. https://doi.org/10.6092/issn.2532-8816/8511
 
 Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evidence and Literary Change*. University of Chicago Press, 2019, pp. 143–169.
+
+"READY FOR GRADING."
