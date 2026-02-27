@@ -5,8 +5,13 @@ categories:
   - blog
 tags:
   - assignment
+  - Harry Potter
+  - Fan Fics
+  - JK Rowling
+  - Distant Reading
+  - Voyant Tools
+  - Analysis
   - RLAC
-  - update
 ---
 
 # Harry Potter: Fanfics and JK Rowling
@@ -26,7 +31,10 @@ The three fan fictions were chosen because each places Harry in a completely dif
 
 Voyant Tool's Summary gives us a useful snapshot of each text's distinctive vocabulary. It gives us the words that are both frequent and unique to that document compared to the rest of the corpus.
 
-![Figure 1: Voyant Summary — distinctive words in each text.](../../assets/images/fig1_frequent_et_distinctive.png)
+<figure>
+  <img src="../../assets/images/fig1_frequent_et_distinctive.png" alt="Voyant Summary — distinctive words in each text.">
+  <figcaption>Figure 1: Voyant Summary — distinctive words in each text.</figcaption>
+</figure>
 
 The results confirm the diversity of the corpus. *Sorcerer's Stone* is defined by "yeh," "hagrid," and "boy". The "yeh" resembles Hagrid's dialect and the repeated address of Harry as a child could result in "boy" being seen. *Deathly Hallows* is defined by "horcrux," "xenophilius," and "wand". These are objects and characters specific to the final war in Deathly Hallows. *HP Meets HP* surfaces "draco," "malfoy," and "laptop," that last word is a notable outlier among wizard stories. *Djinn Awakened* is defined almost entirely by its crossover characters: "greg," "djinn," "jack," "lance," "skullhammer." The NYU Alternate Universe's fingerprint is "clara," "nyu," "dorm," "phone," and "shop", which is a very mundane vocabulary. Even before diving into the text, this single view confirms that each text occupies a different world.
 
@@ -38,15 +46,24 @@ Three hypotheses going in: that *Philosopher's Stone* would have more food langu
 
 ### Food Language and Worldbuilding
 
-![Figure 2: R heatmap — food vocabulary across five texts.](../../assets/images/fig2_food_heatmap.png)
+<figure>
+  <img src="../../assets/images/fig2_food_heatmap.png" alt="R heatmap — food vocabulary across five texts.">
+  <figcaption>Figure 2: R heatmap — food vocabulary across five texts.</figcaption>
+</figure>
 
 The food heatmap is the finding I least expected to be this clean. Looking at the actual numbers: *Sorcerer's Stone* leads on chocolate (16), feast (7), beans (6), hungry (6), and cake (7). *Deathly Hallows* leads on food (21) and dinner (15), and notably has butterbeer (4) while *Sorcerer's Stone* has none. Which is believable as the drink is not introduced in the first book. *HP Meets HP* and the NYU Universe register zero across almost every food word. The NYU Universe has a single instance of chocolate and one of coffee, and nothing else. *Djinn Awakened* is the surprise as it has more food vocabulary than expected. For a dark crossover, 11 instances of dinner and 6 of butterbeer suggests Wishmaster1983 kept more of the wizarding world's texture than the other two fan fic authors did. But we also need to keep in mind that *Djinn Awakened* is a decisively long text compared to the other fan fics as seen in Figure 3 below.
 
-![Figure 3: Voyant MicroSearch — Lengths of texts visualized.](../../assets/images/fig3_lengths.jpg)
+<figure>
+  <img src="../../assets/images/fig3_lengths.png" alt="Voyant MicroSearch — lengths of texts visualized.">
+  <figcaption>Figure 3: Voyant MicroSearch — lengths of texts visualized.</figcaption>
+</figure>
 
 The broader pattern still holds though. In *Sorcerer's Stone*, food is how Rowling makes Hogwarts feel safe and real. The Contexts tool lets us do a little bit of close reading. When searching "feast" across the corpus we get results almost exclusively from *Sorcerer's Stone*, with phrases like "the Great Hall for the Halloween feast" and "the end-of-year feast." In *Deathly Hallows* the word appears only twice, and in a noticeably different register: "like a promise of a feast... He saw Ron's silver terrier." Food in book seven seems to be something Harry can only imagine and not experience. None of the fan fictions return a single feast result.
 
-![Figure 4: Voyant Words in Context — contextual use of "feast" across the corpus.](../../assets/images/fig3_context_feast.png)
+<figure>
+  <img src="../../assets/images/fig4_context_feast.png" alt="Voyant Words in Context — contextual use of feast across the corpus.">
+  <figcaption>Figure 4: Voyant Words in Context — contextual use of "feast" across the corpus.</figcaption>
+</figure>
 
 The NYU Universe has essentially no food language because it has no wizarding world to build. That absence is meaningful. A realistic story set on a university campus doesn't need feasts to establish belonging, and lyingleia doesn't reach for them. The heatmap makes this invisible editorial choice suddenly visible.
 
@@ -54,7 +71,10 @@ Kestemont and Herman argue that machines can surface patterns in text but the in
 
 ### Violence and Tone
 
-![Figure 5: R heatmap — violence vocabulary across the corpus.](../../assets/images/fig4_violence%20heatmap.png)
+<figure>
+  <img src="../../assets/images/fig5_violence%20heatmap.png" alt="R heatmap — violence vocabulary across the corpus.">
+  <figcaption>Figure 5: R heatmap — violence vocabulary across the corpus.</figcaption>
+</figure>
 
 The violence heatmap confirmed the hypothesis, and the numbers are stark. *Deathly Hallows* dominates: 580 instances of "wand," 306 of "death," 194 of "dark," 113 of "magic," 101 of "dead," and 70 of "kill." *Djinn Awakened* follows a similar pattern: 249 instances of "magic," 84 of "wand," 69 of "dark," 57 of "death," and 45 of "war." *Sorcerer's Stone* sits in the middle, with 63 wand mentions and 62 of "dark" but only 10 instances of "death." The NYU Universe is zeroes almost across the board, which makes sense since it has no magic at all.
 
@@ -64,7 +84,10 @@ This is a risk Underwood identifies in "The Risks of Distant Reading" — that s
 
 ### Character Prominence
 
-![Figure 6: Voyant Cirrus screenshot — prominent words across five texts.](../../assets/images/fig5_word_cloud.png)
+<figure>
+  <img src="../../assets/images/fig6_word_cloud.png" alt="Voyant Cirrus — prominent words across five texts.">
+  <figcaption>Figure 6: Voyant Cirrus screenshot — prominent words across five texts.</figcaption>
+</figure>
 
 <iframe style='width: 626px; height: 393px;' src='https://voyant-tools.org/tool/Trends/?query=dumbledore&query=draco&query=harry&query=hermione&query=ron&corpus=8cc4f110c00ccf2076e3abe17597fcc3'></iframe>
 
