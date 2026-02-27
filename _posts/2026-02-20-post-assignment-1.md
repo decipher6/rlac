@@ -60,7 +60,7 @@ The food heatmap is immediately striking. *Sorcerer's Stone* leads on chocolate 
   <figcaption>Figure 3: Voyant MicroSearch — lengths of texts visualized.</figcaption>
 </figure>
 
-The broader pattern still holds though. In *Sorcerer's Stone*, food is how Rowling makes Hogwarts feel safe and real. The Contexts tool lets us do a little bit of close reading. When searching "feast" across the corpus we get results almost exclusively from *Sorcerer's Stone*, with phrases like "the Great Hall for the Halloween feast" and "the end-of-year feast." In *Deathly Hallows* the word appears only twice, and in a noticeably different register: "like a promise of a feast... He saw Ron's silver terrier." Food in book seven seems to be something Harry can only imagine and not experience. None of the fan fictions return a single feast result.
+The broader pattern still holds though. In *Sorcerer's Stone*, food is how Rowling makes Hogwarts feel safe and real. The Contexts tool lets us do a little bit of close reading. A search for “feast” returns results almost exclusively from Sorcerer’s Stone, in contexts such as “the Halloween feast” and “the end-of-year feast.” In Deathly Hallows, it appears only twice and there food shifts from lived ritual to distant memory.
 
 <figure>
   <img src="../../assets/images/fig4_context_feast.png" alt="Voyant Words in Context — contextual use of feast across the corpus.">
@@ -69,7 +69,7 @@ The broader pattern still holds though. In *Sorcerer's Stone*, food is how Rowli
 
 The NYU Universe has essentially no food language because it has no wizarding world to build. That absence is meaningful. A realistic story set on a university campus doesn't need feasts to establish belonging, and lyingleia doesn't reach for them. The heatmap makes this invisible editorial choice suddenly visible.
 
-Kestemont and Herman argue that machines can surface patterns in text but the interpretive work of deciding what those patterns mean stays entirely human. The heatmap shows the absence clearly, but explaining why it matters requires knowing what food actually does in Rowling's writing, and that comes from us, the readers, not from the tool.
+As Kestemont and Herman argue, machines surface patterns, but interpretation remains human. The heatmap reveals absence of food related terms from some texts however explaining its significance requires knowledge of Rowling’s worldbuilding practices. If we did not know food language was a key aspect of Rowling’s worldbuilding, we might miss the point.
 
 ### Violence and Tone
 
@@ -78,11 +78,11 @@ Kestemont and Herman argue that machines can surface patterns in text but the in
   <figcaption>Figure 5: R heatmap — violence vocabulary across the corpus.</figcaption>
 </figure>
 
-The violence heatmap confirmed the hypothesis about Djinn Awakened and Deathly Hallows being similar in terms of violent language use. *Deathly Hallows* dominates: 580 instances of "wand," 306 of "death," 194 of "dark," 113 of "magic," 101 of "dead," and 70 of "kill." *Djinn Awakened* follows a similar pattern: 249 instances of "magic," 84 of "wand," 69 of "dark," 57 of "death," and 45 of "war." *Sorcerer's Stone* sits in the middle, with 63 wand mentions and 62 of "dark" but only 10 instances of "death." The NYU Universe is zeroes almost across the board, which makes sense since it has no magic at all.
+The violence heatmap confirmed the hypothesis about Djinn Awakened and Deathly Hallows being similar in terms of violent language use. *Deathly Hallows* dominates the category, with especially high counts for “wand,” “death,” “dark,” and “kill.” *Djinn Awakened* follows a similar pattern with repetetions of "magic", "wand", "dark", "death", "war." *Sorcerer's Stone* sits in the middle, with few "wand" mentions and some "dark" but only 10 instances of "death." The NYU Universe is zeroes almost across the board, which makes sense since it has no magic at all.
 
 The most striking single number in the violence heatmap is "djinn" — 310 instances in *Djinn Awakened* and zero everywhere else. That one word captures exactly where the fan fiction breaks from everything in the corpus. Up to a point, *Djinn Awakened* and *Deathly Hallows* share a dark register. Both deal with death, dark forces, and war. But once Wishmaster1983's own mythology kicks in, the two texts diverge completely. "War" appears 45 times in *Djinn Awakened* and only 10 times in *Deathly Hallows*, which is also surprising, the fan fic is more explicitly war-focused in its vocabulary than *Deathly Hallows*.
 
-This is a risk Underwood identifies in "The Risks of Distant Reading": surface patterns can mislead if you treat them as the whole story. The vocabulary overlap between *Djinn Awakened* and *Deathly Hallows* is real, but the two texts are doing very different things with that vocabulary. One is a war narrative about sacrifice. The other is a mythology-influenced crossover. The numbers show the overlap but close reading might reveal the underlying difference.
+This is a risk Underwood identifies in "The Risks of Distant Reading": surface patterns can mislead if you treat them as the whole story. The vocabulary overlap between *Djinn Awakened* and *Deathly Hallows* is real, but the two texts are doing very different things with that vocabulary.  *Deathly Hallows* is a war narrative. *Djinn Awakened* is a mythology-influenced crossover. The numbers show the overlap but close reading might reveal the underlying difference.
 
 ### Character Prominence
 
@@ -105,9 +105,9 @@ The NYU adaptation shows something different. Ron's frequency drops to nearly ze
 
 ## Section 3: Critical Reflection
 
-The most useful thing distant reading did here was make absence visible. The near-zero food language across all three fan fictions, Ron's disappearance in the NYU version, the low-frequency cells on the violence heatmap for some texts. These are all findings that only become clear when looking at multiple texts together. A cover-to-cover read of all five texts would have taken much more time and still wouldn't have revealed some of the findings of distant reading.
+The most useful thing distant reading did here was make absence visible. The near-zero food language across all three fan fictions, Ron's disappearance in the NYU version, the low-frequency cells on the violence heatmap for some texts. These are all findings that only become clear when looking at multiple texts together. A time consuming cover to cover read could have still missed some of these findings.
 
-Underwood argues in "The Risks of Distant Reading" that these methods don't remove interpretation but instead move it upstream. Every choice made before running the analysis, which words to track, which texts to include, shaped what came out. The findings here only mean something because the corpus was chosen with a specific question in mind and the word lists were built around real hypotheses. Without that groundwork the tools wouldn't produce anything of value.
+Moreover, Underwood argues in "The Risks of Distant Reading" that these methods don't remove interpretation but instead move it upstream. Every choice made before running the analysis, which words to track, which texts to include, shaped what came out. The findings here only mean something because the corpus was chosen with a specific question in mind and the word lists were built around real hypotheses. Without that groundwork the tools wouldn't produce anything of value.
 
 What the method can't do is explain the findings on its own. The numbers show that fan writers drop food language, but not whether that's intentional or just a side effect of focusing on the plot with constrained word count. The tools surface questions that close reading then has to answer. That's the most transferable lesson: use computational analysis to figure out where to look, then read closely to figure out what it means.
 
