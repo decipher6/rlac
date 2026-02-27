@@ -1,3 +1,14 @@
+---
+title: "Assignment 1: Harry Potter Fan Fics Analysis"
+date: 2026-03-22T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - assignment
+  - RLAC
+  - update
+---
+
 # Harry Potter: Fanfics and JK Rowling
 
 How much information can we get from a text without actually reading the text? Distant reading uses computational tools to find patterns across a corpus. It allows us to spot patterns that would be hard to spot through normal reading. This essay applies those methods to a corpus of five Harry Potter texts: two by JK Rowling and three fan fictions. The goal is to test whether differences between canon and fan fiction show up measurably in the language of the texts.
