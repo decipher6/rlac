@@ -39,43 +39,32 @@ Please explain and interpret this word cloud.
 
 > **Mistral's response**
 >
-> ```
+> 
 > This word cloud visually represents the most frequently used words in the *Harry Potter* series, specifically focusing on the first book, *Harry Potter and the Philosopher's Stone* (or *Sorcerer's Stone* in the U.S.). Here’s a detailed interpretation:
 
----
+>### **Key Themes and Characters**
+>- **"Harry"**: The largest and most prominent word, indicating that Harry Potter is the central character of the story.
+>- **"Hermione" and "Ron"**: These names are also prominent, reflecting the importance of Harry’s two best friends, Hermione Granger and Ron Weasley, in the narrative.
+>- **"Voldemort"**: The main antagonist, Lord Voldemort, is highlighted, showing his significance as the primary villain.
+>- **"Dumbledore"**: Albus Dumbledore, the wise and powerful headmaster of Hogwarts, is another key figure in the story.
 
-### **Key Themes and Characters**
-- **"Harry"**: The largest and most prominent word, indicating that Harry Potter is the central character of the story.
-- **"Hermione" and "Ron"**: These names are also prominent, reflecting the importance of Harry’s two best friends, Hermione Granger and Ron Weasley, in the narrative.
-- **"Voldemort"**: The main antagonist, Lord Voldemort, is highlighted, showing his significance as the primary villain.
-- **"Dumbledore"**: Albus Dumbledore, the wise and powerful headmaster of Hogwarts, is another key figure in the story.
+>### **Common Words Reflecting Plot and Themes**
+>- **"Wand"**: A crucial object in the wizarding world, symbolizing magic and power.
+>- **"Magic"**: Central to the story, emphasizing the magical world Harry enters.
+>- **"Know" and "Thought"**: These words suggest the themes of discovery, learning, and understanding that are prevalent in the book.
+>- **"Looked" and "Eyes"**: These words indicate the importance of observation and perception in the story.
 
----
+>### **Emotional and Action-Oriented Words**
+>- **"Turned," "Saw," "Came," "Got"**: These action verbs reflect the dynamic and eventful nature of the plot.
+>- **"Dark"**: Likely refers to the darker elements of the story, including the threat posed by Voldemort and the mysterious events at Hogwarts.
+>- **"Hand," "Door," "Room"**: These words suggest physical interactions and settings within the story, such as exploring Hogwarts and its secrets.
 
-### **Common Words Reflecting Plot and Themes**
-- **"Wand"**: A crucial object in the wizarding world, symbolizing magic and power.
-- **"Magic"**: Central to the story, emphasizing the magical world Harry enters.
-- **"Know" and "Thought"**: These words suggest the themes of discovery, learning, and understanding that are prevalent in the book.
-- **"Looked" and "Eyes"**: These words indicate the importance of observation and perception in the story.
+>### **Dialogue and Interaction**
+>- **"Said," "Asked," "Told"**: These words indicate the importance of dialogue and communication among characters.
+>- **"Just," "Really," "Oh"**: Common in dialogue, these words add a conversational tone to the narrative.
 
----
-
-### **Emotional and Action-Oriented Words**
-- **"Turned," "Saw," "Came," "Got"**: These action verbs reflect the dynamic and eventful nature of the plot.
-- **"Dark"**: Likely refers to the darker elements of the story, including the threat posed by Voldemort and the mysterious events at Hogwarts.
-- **"Hand," "Door," "Room"**: These words suggest physical interactions and settings within the story, such as exploring Hogwarts and its secrets.
-
----
-
-### **Dialogue and Interaction**
-- **"Said," "Asked," "Told"**: These words indicate the importance of dialogue and communication among characters.
-- **"Just," "Really," "Oh"**: Common in dialogue, these words add a conversational tone to the narrative.
-
----
-
-### **Summary**
-The word cloud effectively captures the essence of *Harry Potter and the Philosopher's Stone*: a story about a young boy discovering his identity, forming friendships, and confronting evil in a magical world. The prominence of character names and magical terms highlights the book's focus on adventure, friendship, and the battle between good and evil.
-> ```
+>### **Summary**
+>The word cloud effectively captures the essence of *Harry Potter and the Philosopher's Stone*: a story about a young boy discovering his identity, forming friendships, and confronting evil in a magical world. The prominence of character names and magical terms highlights the book's focus on adventure, friendship, and the battle between good and evil.
 
 The LLM was able to identify what kind of books we are dealing with because of the famous names and themes that are present in the word cloud. It also seems to have a good understanding of the plot and the characters, as well as the dialogue and interaction between the characters. But it was only able to say that it included words from the first book in the series but could not work with the idea of fan fictions being involved. It might be because of the abdence/lack of fan fiction from its training data.
 
@@ -107,63 +96,55 @@ Now, I will ask Mistral to explain and interpret this heatmap with a bit of addi
 Please explain and interpret this image. You are given a heatmap of the frequency of food-related words across five Harry Potter texts: *Sorcerer's Stone*, *Deathly Hallows*, which are original texts by JK Rowling, then *HP Meets HP*, *And I Will Find You*, and *Djinn Awakened*, which are fan fictions by CaelynAilene, lyingleia, and Wishmaster1983 respectively.
 ```
 This was the output:
+
+>This heatmap visualizes the frequency of food-related words across five Harry Potter texts: two original works by J.K. Rowling (*Sorcerer's Stone* and *Deathly Hallows*) and three fanfictions (*HP Meets HP*, *And I Will Find You* (NYU AU), and *Djinn Awakened*). Here’s a detailed interpretation:
+
+>### **Structure of the Heatmap**
+>- **Rows:** Food-related words (e.g., "food," "dinner," "chocolate," etc.).
+>- **Columns:** Titles of the five texts.
+>- **Color Intensity:** Represents the frequency of each word in the corresponding text. Darker colors indicate higher frequency.
+
+>### **Key Observations**
+
+>#### **1. Sorcerer’s Stone (Original Text)**
+>- **"Chocolate"** is the most frequent word (16 times), likely reflecting its iconic role in the story (e.g., the scene where Harry receives chocolate from Ron on the Hogwarts Express).
+>- **"Food"** (10), **"dinner"** (8), and **"feast"** (7) are also prominent, emphasizing the importance of communal meals and celebrations in the narrative.
+>- **"Beans"** (6) and **"hungry"** (6) appear moderately, possibly referencing the characters' experiences with food scarcity or treats like Bertie Bott’s Every Flavour Beans.
+
+>#### **2. Deathly Hallows (Original Text)**
+>- **"Food"** (21) and **"dinner"** (15) dominate, suggesting a focus on meals, possibly tied to the characters' journeys and moments of respite during the war.
+>- **"Cake"** (9) and **"butterbeer"** (4) are notable, indicating celebratory or comforting food items.
+>- **"Chocolate"** (2) appears less frequently compared to *Sorcerer’s Stone*, perhaps reflecting a shift in tone or context.
+
+>#### **3. HP Meets HP (Fanfiction)**
+>- None of the listed food-related words appear in this text, suggesting that food is not a central theme or that the narrative focuses on other elements.
+
+>#### **4. And I Will Find You (NYU AU) (Fanfiction)**
+>- Only **"chocolate"** (1) and **"coffee"** (1) appear, indicating minimal emphasis on food-related words. This could reflect a modern or alternate universe setting where food is less central to the plot.
+
+>#### **5. Djinn Awakened (Fanfiction)**
+>- **"Dinner"** (11) and **"food"** (5) are the most frequent words, showing a focus on meals, possibly in a domestic or social context.
+>- **"Butterbeer"** (6) and **"coffee"** (5) are also prominent, suggesting a blend of magical and mundane food/drink items.
+>- **"Pudding"** (3) and **"cake"** (2) appear occasionally, indicating the presence of desserts or treats in the narrative.
+
+>### **Interpretation and Themes**
+
+>#### **Original Texts vs. Fanfictions**
+>- **Original Texts (*Sorcerer’s Stone* and *Deathly Hallows*):**
+>  Food-related words are frequent, reflecting the importance of meals, treats, and communal dining in the Harry Potter universe. These words often tie into key moments of comfort, celebration, or character development (e.g., chocolate as a remedy for Dementor exposure, feasts in the Great Hall).
+
+>- **Fanfictions (*HP Meets HP*, *And I Will Find You*, *Djinn Awakened*):**
+>  Food-related words are less frequent or absent, suggesting that these stories may focus on different themes or settings. For example:
+>  - *HP Meets HP* does not mention food at all, possibly indicating a plot-driven or dialogue-heavy narrative.
+>  - *And I Will Find You* (NYU AU) includes minimal food references, which may reflect its modern or alternate universe setting.
+>  - *Djinn Awakened* includes some food-related words, particularly "dinner" and "butterbeer," suggesting a blend of magical and everyday life.
+
+>### **Summary Table**
+
+
+>Word Frequency Summary
+
 ```
-This heatmap visualizes the frequency of food-related words across five Harry Potter texts: two original works by J.K. Rowling (*Sorcerer's Stone* and *Deathly Hallows*) and three fanfictions (*HP Meets HP*, *And I Will Find You* (NYU AU), and *Djinn Awakened*). Here’s a detailed interpretation:
-
----
-
-### **Structure of the Heatmap**
-- **Rows:** Food-related words (e.g., "food," "dinner," "chocolate," etc.).
-- **Columns:** Titles of the five texts.
-- **Color Intensity:** Represents the frequency of each word in the corresponding text. Darker colors indicate higher frequency.
-
----
-
-### **Key Observations**
-
-#### **1. Sorcerer’s Stone (Original Text)**
-- **"Chocolate"** is the most frequent word (16 times), likely reflecting its iconic role in the story (e.g., the scene where Harry receives chocolate from Ron on the Hogwarts Express).
-- **"Food"** (10), **"dinner"** (8), and **"feast"** (7) are also prominent, emphasizing the importance of communal meals and celebrations in the narrative.
-- **"Beans"** (6) and **"hungry"** (6) appear moderately, possibly referencing the characters' experiences with food scarcity or treats like Bertie Bott’s Every Flavour Beans.
-
-#### **2. Deathly Hallows (Original Text)**
-- **"Food"** (21) and **"dinner"** (15) dominate, suggesting a focus on meals, possibly tied to the characters' journeys and moments of respite during the war.
-- **"Cake"** (9) and **"butterbeer"** (4) are notable, indicating celebratory or comforting food items.
-- **"Chocolate"** (2) appears less frequently compared to *Sorcerer’s Stone*, perhaps reflecting a shift in tone or context.
-
-#### **3. HP Meets HP (Fanfiction)**
-- None of the listed food-related words appear in this text, suggesting that food is not a central theme or that the narrative focuses on other elements.
-
-#### **4. And I Will Find You (NYU AU) (Fanfiction)**
-- Only **"chocolate"** (1) and **"coffee"** (1) appear, indicating minimal emphasis on food-related words. This could reflect a modern or alternate universe setting where food is less central to the plot.
-
-#### **5. Djinn Awakened (Fanfiction)**
-- **"Dinner"** (11) and **"food"** (5) are the most frequent words, showing a focus on meals, possibly in a domestic or social context.
-- **"Butterbeer"** (6) and **"coffee"** (5) are also prominent, suggesting a blend of magical and mundane food/drink items.
-- **"Pudding"** (3) and **"cake"** (2) appear occasionally, indicating the presence of desserts or treats in the narrative.
-
----
-
-### **Interpretation and Themes**
-
-#### **Original Texts vs. Fanfictions**
-- **Original Texts (*Sorcerer’s Stone* and *Deathly Hallows*):**
-  Food-related words are frequent, reflecting the importance of meals, treats, and communal dining in the Harry Potter universe. These words often tie into key moments of comfort, celebration, or character development (e.g., chocolate as a remedy for Dementor exposure, feasts in the Great Hall).
-
-- **Fanfictions (*HP Meets HP*, *And I Will Find You*, *Djinn Awakened*):**
-  Food-related words are less frequent or absent, suggesting that these stories may focus on different themes or settings. For example:
-  - *HP Meets HP* does not mention food at all, possibly indicating a plot-driven or dialogue-heavy narrative.
-  - *And I Will Find You* (NYU AU) includes minimal food references, which may reflect its modern or alternate universe setting.
-  - *Djinn Awakened* includes some food-related words, particularly "dinner" and "butterbeer," suggesting a blend of magical and everyday life.
-
----
-
-### **Summary Table**
-
-
-Word Frequency Summary
-
-
 | Word        | Sorcerer’s Stone | Deathly Hallows | HP Meets HP | NYU AU | Djinn Awakened |
 |-------------|------------------|-----------------|-------------|--------|----------------|
 | food        | 10               | 21              | 0           | 0      | 5              |
@@ -176,12 +157,9 @@ Word Frequency Summary
 | beans       | 6                | 2               | 0           | 0      | 1              |
 | feast       | 7                | 1               | 0           | 0      | 0              |
 | pudding     | 2                | 1               | 0           | 0      | 3              |
-
----
-
-### **Conclusion**
-The heatmap highlights how food-related words are used differently across original texts and fanfictions. In the original works, food plays a significant role in world-building and character experiences, while fanfictions vary widely—some ignore food entirely, and others incorporate it in unique ways. This reflects the diverse creative directions taken by fanfiction authors compared to J.K. Rowling’s original narratives.
-
 ```
+
+>### **Conclusion**
+>The heatmap highlights how food-related words are used differently across original texts and fanfictions. In the original works, food plays a significant role in world-building and character experiences, while fanfictions vary widely—some ignore food entirely, and others incorporate it in unique ways. This reflects the diverse creative directions taken by fanfiction authors compared to J.K. Rowling’s original narratives.
 
 In this version it is doing a bit more than just regurgitating the information that was already present in the image. It is able to identify the texts that are being dealt with and the frequency of the food-related words in each text. It is also able to identify the original texts and the fanfictions and how they differ in their use of food-related words. It is also able to identify the themes and the patterns in the use of food-related words across the texts.
