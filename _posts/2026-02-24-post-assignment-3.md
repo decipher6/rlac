@@ -1,5 +1,5 @@
 ---
-title: "Assignment 3:"
+title: "Assignment 3: ---"
 date: 2026-04-23T15:34:30-04:00
 categories:
   - blog
