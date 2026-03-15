@@ -73,10 +73,16 @@ Please explain and interpret this word cloud.
 
 </div>
 
-The LLM was able to identify what kind of books we are dealing with because of the famous names and themes that are present in the word cloud. It also seems to have a good understanding of the plot and the characters, as well as the dialogue and interaction between the characters. But it was only able to say that it included words from the first book in the series but could not work with the idea of fan fictions being involved. It might be because of the abdence/lack of fan fiction from its training data.
+The LLM was able to identify what kind of books we are dealing with because of the famous names and themes that are present in the word cloud. It also seems to have a good understanding of the plot and the characters, as well as the dialogue and interaction between the characters. But it was only able to say that it included words from the first book in the series. Although the first book was one of the books included it missed the fact that the other books were also included. It also could not identify fan fictions that were also involved. It might be because of the abundance or lack of fan fiction from its training data, or perhaps the union of the fanfiction and original texts had a considerable overlap.
 
 ## 2. Food heatmap
-For the second illustration I will use the food heatmap from Figure 2 of my Assignment 1 post. I will ask mistral in a separate chat to explain and interpret this heatmap with the following prompt:
+
+<figure>
+  <img src="../../assets/images/fig2_food_heatmap.png" alt="Food heatmap — frequency of food-related words across five texts.">
+  <figcaption>Figure 2: Food heatmap — frequency of food-related words across five texts.</figcaption>
+</figure>
+
+For the second illustration I will use the food heatmap from Figure 2 of my Assignment 1 post. I will ask Mistral in a separate chat to explain and interpret this heatmap with the following prompt:
 
 ```
 Please explain and interpret this image.
@@ -240,11 +246,11 @@ In this version it is doing a bit more than just regurgitating the information t
 
 ## 3. What This Experiment Shows About Context
 
-One thing that becomes clear from this experiment is that visuals do not really speak for themselves. Even though visualizations are supposed to summarize data in a clear way, they still need context in order to be interpreted properly. When I first gave the word cloud to Mistral without any context, it immediately assumed that the words came from the first Harry Potter book. This shows that the model relied on recognizable names like Harry, Hermione, and Voldemort to guess what the dataset was. While this guess was partly correct in identifying the franchise, it missed an important part of the dataset: the fact that the corpus also included fan fiction.
+One thing  becomes clear from this experiment, visuals do not really speak for themselves. Even though visualizations are supposed to summarize data in a clear way, they still need context in order to be interpreted properly. When I first gave the word cloud to Mistral without any context, it immediately assumed that the words came from the first Harry Potter book. This shows that the model relied on recognizable names like Harry, Hermione, and Voldemort to guess what the dataset was. While this guess was partly correct in identifying the franchise, it missed an important part of the dataset: the fact that the corpus also included the other Harry Potter book and fan fictions.
 
 The food heatmap shows this issue even more clearly. Without context, the model mostly repeated the information that was already present in the visualization. It described the structure of the heatmap and listed the frequency counts but did not provide much interpretation beyond that. In other words, the visualization alone did not give the model enough information to understand what the texts were or why the differences between them might matter.
 
-However, when I added context explaining that some of the texts were original novels by J.K. Rowling and others were fan fictions, the interpretation became more meaningful. The model was then able to compare the original texts with the fan fiction and suggest that the different frequencies of food-related words might reflect different themes or narrative priorities. Even though the model was still working with the same numbers, the added context allowed it to produce a much more useful interpretation.
+However, when I added context explaining that some of the texts were original novels by J.K. Rowling and others were fan fictions, the interpretation became more meaningful. The model was then able to compare the original texts with the fan fiction and suggest that the different frequencies of food-related words might reflect different themes or narrative priorities. Even though the model was still working with the same numbers, the added context allowed it to produce a more useful interpretation.
 
 This reflects the point that Underwood makes in “The Risks of Distant Reading.” Distant reading tools are very good at identifying patterns in large datasets, but those patterns do not explain themselves. Someone still needs to understand the dataset, the research question, and the broader context of the texts in order to make meaningful interpretations.
 
