@@ -82,24 +82,103 @@ For the second illustration I will use the food heatmap from Figure 2 of my Assi
 Please explain and interpret this image.
 ```
 
-<div class="llm-output">
-
 In this output the LLM regurgitated the information that was already present in the image and did not provide any new insights. It said that it was a visualization of the frequency of food-related words across different texts or contexts. It extracted the frequency counts from the heatmap and put them into a table at the end of the response.
 
-| Word        | Sorcerer’s Stone | Deathly Hallows | HP Meets HP | NYU AU | Djinn |
-|-------------|------------------|-----------------|-------------|--------|-------|
-| food        | 10               | 21              | 0           | 0      | 5     |
-| dinner      | 8                | 15              | 0           | 0      | 11    |
-| chocolate   | 16               | 2               | 0           | 1      | 0     |
-| cake        | 7                | 9               | 0           | 0      | 2     |
-| hungry      | 6                | 7               | 0           | 0      | 1     |
-| butterbeer  | 0                | 4               | 0           | 0      | 6     |
-| coffee      | 1                | 3               | 0           | 1      | 5     |
-| beans       | 6                | 2               | 0           | 0      | 1     |
-| feast       | 7                | 1               | 0           | 0      | 0     |
-| pudding     | 2                | 1               | 0           | 0      | 3     |
+<table>
+  <thead>
+    <tr>
+      <th>Word</th>
+      <th>Sorcerer’s Stone</th>
+      <th>Deathly Hallows</th>
+      <th>HP Meets HP</th>
+      <th>NYU AU</th>
+      <th>Djinn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>food</td>
+      <td>10</td>
+      <td>21</td>
+      <td>0</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>dinner</td>
+      <td>8</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>chocolate</td>
+      <td>16</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>cake</td>
+      <td>7</td>
+      <td>9</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>hungry</td>
+      <td>6</td>
+      <td>7</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>butterbeer</td>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>coffee</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>beans</td>
+      <td>6</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>feast</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>pudding</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
 
-</div>
 
 Now, I will ask Mistral to explain and interpret this heatmap with a bit of additional context. I will tell it what texts we are dealing with and try to see what analysis it comes up with. For this round I gave it the following prompt:
 
