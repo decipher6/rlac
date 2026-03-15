@@ -14,8 +14,6 @@ tags:
   - context
 ---
 
-# Response 1: On the Importance of Context for Visual Communication
-
 <style>
 .llm-output { font-size: 0.875em; }
 .llm-output h3 { font-size: 1.05em; font-weight: 600; margin: 0.6em 0 0.25em 0; }
@@ -26,7 +24,6 @@ tags:
 
 In “The Risks of Distant Reading,” Ted Underwood argues that distant reading tools only become meaningful when the person using them brings context to the analysis. These tools can find patterns in text, but without knowing where the data comes from, those patterns might not mean much. For this assignment, I revisit the visualizations I created earlier from a corpus of Harry Potter fan fiction using Voyant Tools and R. I then give these visuals to the LLM Mistral Le Chat with no context and ask it to explain and interpret them. The goal is to see whether the model can produce useful insights from the visuals alone, or whether context is still necessary to understand what the data actually shows.
 
----
 
 ## 1. Word cloud (no context)
 
@@ -89,19 +86,18 @@ Please explain and interpret this image.
 
 In this output the LLM regurgitated the information that was already present in the image and did not provide any new insights. It said that it was a visualization of the frequency of food-related words across different texts or contexts. It extracted the frequency counts from the heatmap and put them into a table at the end of the response.
 
-```
-Word,Sorcerer’s Stone,Deathly Hallows,HP Meets HP,NYU AU,Djinn
-food,10,21,0,0,5
-dinner,8,15,0,0,11
-chocolate,16,2,0,1,0
-cake,7,9,0,0,2
-hungry,6,7,0,0,1
-butterbeer,0,4,0,0,6
-coffee,1,3,0,1,5
-beans,6,2,0,0,1
-feast,7,1,0,0,0
-pudding,2,1,0,0,3
-```
+| Word        | Sorcerer’s Stone | Deathly Hallows | HP Meets HP | NYU AU | Djinn |
+|-------------|------------------|-----------------|-------------|--------|-------|
+| food        | 10               | 21              | 0           | 0      | 5     |
+| dinner      | 8                | 15              | 0           | 0      | 11    |
+| chocolate   | 16               | 2               | 0           | 1      | 0     |
+| cake        | 7                | 9               | 0           | 0      | 2     |
+| hungry      | 6                | 7               | 0           | 0      | 1     |
+| butterbeer  | 0                | 4               | 0           | 0      | 6     |
+| coffee      | 1                | 3               | 0           | 1      | 5     |
+| beans       | 6                | 2               | 0           | 0      | 1     |
+| feast       | 7                | 1               | 0           | 0      | 0     |
+| pudding     | 2                | 1               | 0           | 0      | 3     |
 
 </div>
 
@@ -135,7 +131,7 @@ This was the output:
 >
 >#### **3. HP Meets HP (Fanfiction)**
 >- None of the listed food-related words appear in this text, suggesting that food is not a central theme or that the narrative focuses on other elements.
-
+>
 >#### **4. And I Will Find You (NYU AU) (Fanfiction)**
 >- Only **"chocolate"** (1) and **"coffee"** (1) appear, indicating minimal emphasis on food-related words. This could reflect a modern or alternate universe setting where food is less central to the plot.
 >
