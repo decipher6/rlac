@@ -230,7 +230,7 @@ This was the output:
 >  - *HP Meets HP* does not mention food at all, possibly indicating a plot-driven or dialogue-heavy narrative.
 >  - *And I Will Find You* (NYU AU) includes minimal food references, which may reflect its modern or alternate universe setting.
 >  - *Djinn Awakened* includes some food-related words, particularly "dinner" and "butterbeer," suggesting a blend of magical and everyday life.
-
+>
 >### **Conclusion**
 >The heatmap highlights how food-related words are used differently across original texts and fanfictions. In the original works, food plays a significant role in world-building and character experiences, while fanfictions vary widely—some ignore food entirely, and others incorporate it in unique ways. This reflects the diverse creative directions taken by fanfiction authors compared to J.K. Rowling’s original narratives.
 
