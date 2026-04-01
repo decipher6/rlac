@@ -21,13 +21,11 @@ tags:
 
 ## Static vs. Dynamic: The Basics
 
-Most people use the internet every day without thinking about what kind of site they are actually looking at. I was one of those people before this workshop.
+Most people use the internet every day without thinking about what kind of site they are actually looking at. The websites we see can broadly be divided into two categories: dynamic and static.
 
-There are two kinds of websites. Dynamic sites, like WordPress, Squarespace, or Omeka, generate a fresh page every time someone visits. They pull from databases, run server-side code, and do a lot of work behind the scenes. Static sites do none of that. They are just pre-built HTML files, delivered as-is. No database. No live generation. What you see is what was built ahead of time.
+Dynamic sites, like WordPress, Squarespace, or Omeka, generate a fresh page every time someone visits. They pull from databases, run server-side code, and do a lot of work behind the scenes. Static sites do none of that. They are just pre-built HTML files. No database. No live generation. What you see is what was built ahead of time.
 
-That sounds limiting. It is not.
-
-Static sites are faster because there is nothing to compute on the spot. They are more secure because there is no database to attack. They are easier to preserve because they do not depend on plugins or software versions staying compatible. The presenter made a point that landed: the [Space Jam 1996 website](https://www.spacejam.com/1996/) still works perfectly. Countless dynamic sites from the same era are gone. Static sites outlast the platforms that dynamic sites depend on.
+Static sites are faster because there is nothing to compute on the spot. They are more secure because there is no database to attack. They are easier to preserve because they do not depend on other things to stay compatible. The presenter made a point that landed: the [Space Jam 1996 website](https://www.spacejam.com/1996/) still works perfectly. Countless dynamic sites from the same era are gone. Static sites outlast the platforms that dynamic sites depend on.
 
 There is also an environmental argument. Pre-built, smaller sites consume less energy than sites that require constant server processing. I had not thought about the carbon footprint of websites before this. It makes sense when you think about it.
 
