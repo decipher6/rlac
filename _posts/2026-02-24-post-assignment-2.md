@@ -20,6 +20,8 @@ The corpus has eighteen texts by six authors, written between the late 1800s and
 
 The texts are quite different from each other. Wells wrote Victorian science fiction about alien invasion and moral philosophy. Dick wrote short stories about Cold War and robots. Norton wrote about space exploration. Brackett mixed science fiction with adventure and romance. Kuttner wrote across several styles, serious adventure to satire. Bradley wrote planetary romance as well as fiction. This variety raises a simple question: will the computer group these texts by what they are about, or by who wrote them? The two methods answer this question in different ways, and comparing them is where things get interesting.
 
+## Section 1: Stylometry
+
 First, we will look at stylometry. Stylometry looks at how often authors use common words like "the," "and," and "but." These words are not really about any topic. They just reflect how a person naturally writes. The idea is that every writer has unconscious habits in how they structure sentences and choose small connecting words. These habits stay consistent across different stories, even when the topics change completely. I used a hierarchical cluster analysis and a Bootstrap Consensus Tree to test this.
 
 <figure>
@@ -34,11 +36,12 @@ Not every author clusters this neatly. Leigh Brackett's works are more spread ou
 Another outlier is Wells's The Salvaging of Civilization. It sits far from his other two texts. The reason is simple: it is a non-fiction essay, not a novel. Essays and stories use words in different ways, and the model picks up on this. Even though Wells wrote all three texts, the genre difference is strong enough to separate this one from the rest.
 
 <figure>
-  <img src="../../assets/images/CA_500MFW.png" alt="Cluster Analysis 100 MFW">
+  <img src="../../assets/images/CA_100MFW.png" alt="Cluster Analysis 100 MFW">
   <figcaption>Figure 2: Cluster Analysis with 100 most frequent words.</figcaption>
 </figure>
 
 Comparing the 100 MFW and 500 MFW analyses is also useful. At 100 MFWs, the clusters are a little less stable. At 500 MFWs, the groupings become clearer and more consistent. This makes sense because more words give the model more information to work with. However, there is a tradeoff: the more words you include, the more likely some of them reflect the topic rather than pure writing style.
+
 
 <figure>
   <img src="../../assets/images/BCT_delta.png" alt="BCT_delta">
@@ -50,6 +53,8 @@ The Bootstrap Consensus Tree helps with this problem. It runs the clustering man
 The Black Kiss clusters near Kuttner's solo work. This suggests that one author's style dominated, or that the model just cannot separate two voices mixed together in one text.
 
 The wordlist confirms that the clustering is driven almost entirely by function words like "the," "and," "he," and "was." These words carry no meaning on their own. They just reflect grammatical habits. However, toward the bottom of the list, a few content words appear: character names like "dane" and "stark," and body-part words like "eyes," "face," and "hand." These suggest that at higher MFW counts, the model starts picking up on topic and character as well as pure style. The presence of "men," "man," and "world" also reflects something about the corpus itself: most of these stories center on male protagonists operating in large-scale settings, which was typical of 1950s science fiction regardless of whether the author was male or female.
+
+## Section 2: TF-IDF
 
 <figure>
   <img src="../../assets/images/pca.png" alt="PCA plot of TF-IDF scores">
