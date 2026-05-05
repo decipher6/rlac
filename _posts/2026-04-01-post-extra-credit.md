@@ -88,3 +88,4 @@ For a capstone project involving archival research or a digital collection, Coll
 And the environmental point stuck with me. If static sites use meaningfully less energy than dynamic ones, that is a reason to prefer them as a default whenever a database is not actually necessary.
 
 ---
+READY FOR GRADING.

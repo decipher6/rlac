@@ -88,4 +88,4 @@ These texts were mostly written for pulp magazines in the 1950s, for readers liv
 
 Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evidence and Literary Change*. University of Chicago Press, 2019, pp. 143–169.
 
-(Almost) READY FOR GRADING.
+READY FOR GRADING.
